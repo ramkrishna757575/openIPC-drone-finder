@@ -53,3 +53,4 @@ class GtkOSDWidget(Gtk.Window):
         cr.show_text(self.text)
 
         return False  # Do not propagate the signal
+

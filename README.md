@@ -26,24 +26,30 @@
 
 ## Installation
 
-1. Clone the repository:
+1. Install required dependencies:
+    ```sh
+    sudo apt update
+    sudo apt install libgirepository1.0-dev
+    ```
+
+2. Clone the repository:
     ```sh
     git clone https://github.com/ramkrishna757575/openIPC-drone-finder.git
     cd DroneFinder
     ```
 
-2. Create and activate a virtual environment:
+3. Create and activate a virtual environment:
     ```sh
     python3 -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. Install the required dependencies:
+4. Install the required dependencies:
     ```sh
     pip install -r requirements.txt
     ```
 
-4. To build a binary run the following command. You can find the binary with name `main` inside `dist` folder.
+5. To build a binary run the following command. You can find the binary with name `main` inside `dist` folder.
     ```sh
     pyinstaller --onefile main.py
     ```
