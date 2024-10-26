@@ -34,13 +34,18 @@
 
 2. Create and activate a virtual environment:
     ```sh
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
 3. Install the required dependencies:
     ```sh
     pip install -r requirements.txt
+    ```
+
+4. To build a binary run the following command. You can find the binary with name `main` inside `dist` folder.
+    ```sh
+    pyinstaller --onefile main.py
     ```
 
 ## Usage
