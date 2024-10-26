@@ -28,7 +28,7 @@
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/ramkrishna757575/openIPC-drone-finder.git
     cd DroneFinder
     ```
 
@@ -52,7 +52,7 @@ python main.py [--verbose] [--osd]
 ```
 ```
 --verbose: Enable verbose mode for logging.
---osd: Enable OSD mode for displaying frequency.
+--osd: Enable OSD mode for displaying how close the drone is to the receiver.
 ```
 
 ## Components
