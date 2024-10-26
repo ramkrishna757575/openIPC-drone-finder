@@ -14,7 +14,6 @@
 ```plaintext
 .
 ├── cairo_renderer.py       # Module for rendering OSD with Cairo
-├── cairo_test.py           # Testing script for Cairo rendering (optional)
 ├── frequency_updater.py    # Module that updates the frequency based on RSSI values
 ├── main.py                 # Main entry point of the application
 ├── osd_widget.py           # PyQt5 widget for displaying the OSD
