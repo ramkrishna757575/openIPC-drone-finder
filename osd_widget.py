@@ -1,7 +1,7 @@
 # osd_widget.py
 
 import cairo
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtWidgets, QtCore, QtGui
 
 from cairo_renderer import CairoRenderer
 

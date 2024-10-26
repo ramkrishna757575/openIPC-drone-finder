@@ -3,8 +3,8 @@ gpiod==2.2.1
 msgpack==1.1.0
 packaging==24.1
 pycairo==1.27.0
+PyGObject==3.50.0
 pyinstaller==6.11.0
 pyinstaller-hooks-contrib==2024.9
-PyQt5==5.15.11
-PyQt5-Qt5==5.15.15
-PyQt5_sip==12.15.0
+setuptools==75.2.0
+shiboken2==5.13.2
