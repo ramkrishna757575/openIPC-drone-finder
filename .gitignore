@@ -1,0 +1,23 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore PyInstaller build folders
+build/
+dist/
+*.spec
+
+# Ignore scratch or temp files
+scratch.txt
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
